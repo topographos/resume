@@ -164,11 +164,23 @@ Publications, Posters, and Talks {data-icon=book}
 CV %<>% print_section('academic_articles')
 ```
 
+Projects Notebooks {data-icon=book}
+--------------------------------------------------------------------------------
 
+```{r}
+CV %<>% print_section('projects')
+```
+
+::: aside
+```{r}
+CV %<>% print_text_block('projects_aside')
+```
+:::
 Professional Memberships {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('membership')
 ```
+
 
