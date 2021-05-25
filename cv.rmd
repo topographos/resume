@@ -54,7 +54,7 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at https://dispersal.rbind.io/")
+  cat("View this CV online with links at https://topographos.github.io/resume/")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/topographos/resume/raw/master/michalski_cv.pdf)")
 }
@@ -111,12 +111,7 @@ CV %<>% print_section('education')
 
 
 
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
 
-```{r}
-CV %<>% print_section('research_positions')
-```
 
 
 
