@@ -110,7 +110,12 @@ CV %<>% print_section('education')
 ```
 
 
+Research Positions {data-icon=university}
+--------------------------------------------------------------------------------
 
+```{r}
+CV%>% print_section('research_positions')
+```
 
 
 
