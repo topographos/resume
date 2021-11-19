@@ -22,7 +22,7 @@ source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/1xtvvmNTPsLDej-DR81esBcK5aWKt-FGnlHIzvvhprpE",  
+  data_location = "https://docs.google.com/spreadsheets/d/1lN_DvYTRI2oUzxjdAxBJnCpTijdcjd7rb7peIDxcWpU/",  
   pdf_mode = params$pdf_mode
 )
 
@@ -130,7 +130,7 @@ CV %<>% print_section('industry_positions')
 
 ::: aside
 ```{r}
-CV %<>% print_text_block('industy_experience_aside')
+CV %<>% print_text_block('industry_experience_aside')
 ```
 :::
 
