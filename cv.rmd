@@ -159,7 +159,11 @@ CV %<>% print_section('teaching_positions')
 
 Publications, Posters, and Talks {data-icon=book}
 --------------------------------------------------------------------------------
-
+::: aside
+```{r}
+CV %<>% print_text_block('research_aside')
+```
+:::
 ```{r}
 CV %<>% print_section('academic_articles')
 ```
